@@ -4,6 +4,7 @@ import Vue from 'vue'
 import App from './App'
 import router from './mixins/router'
 import store from './mixins/store'
+require('babel-polyfill');
 
 Vue.config.productionTip = false
 
